@@ -1,0 +1,1 @@
+Exception('This module is meant to be executed only.')
