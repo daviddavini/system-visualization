@@ -12,7 +12,7 @@ pip install matplotlib
 ```
 
 ## Initiation
-To run SystemVisualizer, simply execute the python package
+To run SystemVisualizer, simply execute the python package:
 ```bash
 python3 -m visualizer
 ```
