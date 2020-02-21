@@ -16,8 +16,10 @@ plt.style.use('seaborn-pastel')
 
 
 ### Setup figure, with subplots
-fig = plt.figure(figsize=(10,6))
+fig = plt.figure(num="Visualization of 2D Linear Systems", figsize=(10,6))
 fig.suptitle('Visualization of 2D Linear Systems', fontsize = 25, fontweight = 'bold')
+mng = plt.get_current_fig_manager()
+mng.full_screen_toggle()
 
 diagram_axes = plt.subplot2grid((2, 3), (0, 0))
 portrait_axes = plt.subplot2grid((2, 3), (0, 1), rowspan = 2, colspan = 2)
